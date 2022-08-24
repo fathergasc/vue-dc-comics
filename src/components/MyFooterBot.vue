@@ -1,5 +1,7 @@
 <template>
-  <h1>footer bot</h1>
+  <footer>
+
+  </footer>
 </template>
 
 <script>
@@ -9,5 +11,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+    footer {
+        background-color: violet;
+        height: 400px;
+    }
 </style>
