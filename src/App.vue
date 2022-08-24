@@ -29,5 +29,17 @@ export default {
 <style lang="scss">
 
   @import '~bootstrap/scss/bootstrap.scss';
+  @import './styles/vars.scss';
+  @import './styles/general.scss';
+  @import './styles/typo.scss';
+
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+
 
 </style>

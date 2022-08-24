@@ -1,7 +1,7 @@
 <template>
-  <div id="footer_top">
+    <div id="footer_top">
 
-  </div>
+    </div>
 </template>
 
 <script>
@@ -12,10 +12,10 @@ export default {
 
 <style lang="scss">
 
- @import '../styles/vars.scss';
+    @import '../styles/vars.scss';
 
- #footer_top {
-     height: 100px;
-     background-color: $brand_color;
- }
+    #footer_top {
+        height: 100px;
+        background-color: $brand_color;
+    }
 </style>
