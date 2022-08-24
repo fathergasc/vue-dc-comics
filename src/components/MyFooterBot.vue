@@ -1,6 +1,6 @@
 <template>
     <footer>
-
+        <img src="@/assets/images/buy-comics-digital-comics.png" alt="">
     </footer>
 </template>
 

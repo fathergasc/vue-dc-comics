@@ -1,6 +1,6 @@
 <template>
     <header class="container d-flex justify-content-between align-items-center">
-        <img src="@/assets/img/dc-logo.png" alt="DC Logo">
+        <img src="@/assets/images/dc-logo.png" alt="DC Logo">
         <ul class="">
             <li class="d-inline-block mx-3" v-for="(link, index) in nav_links" :key="index" :class="(link.active == true)?'active':''">
                 <a href="link.url" :class="(link.active == true)?'active':''">{{link.text}}</a>
