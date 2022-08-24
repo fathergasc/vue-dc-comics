@@ -40,6 +40,10 @@ export default {
     text-decoration: none;
   }
 
+  ul {
+        margin-bottom: 0; // bootstrap puts 1rem as margin-bottom on ul
+    }
+
 
 
 </style>

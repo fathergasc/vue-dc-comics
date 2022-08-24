@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="container text-white d-flex align-items-center fw-bold fs-3 p-4">Content goes here!</div>
+        <div class="container text-white d-flex align-items-center fw-bold fs-3 p-5">Content goes here!</div>
     </main>
 </template>
 

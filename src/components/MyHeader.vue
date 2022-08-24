@@ -84,9 +84,7 @@ export default {
         height: 70%;
     }
 
-    ul {
-        margin-bottom: 0; // bootstrap puts 1rem as margin-bottom on ul
-    }
+    
 
     li {
         position: relative;

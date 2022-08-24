@@ -1,10 +1,15 @@
 <template>
     <div  id="footer_top">
         <div class="container">
-            <div v-for="(product, index) in products" class="product d-flex justify-content-center align-items-center" :key="index">
-                <img :src="'@/assets/images/' + product.image" :alt="product.text">
-                
-            </div>
+            <ul class="product d-flex justify-content-center align-items-center">
+                <li v-for="(product, index) in products" :key="index" class="my-5 mx-3 d-flex justify-space-around align-items-center">
+                    <a href="product.url">
+                        <img class="product-img" :src="require(`../assets/images/${product.image}`)" :alt="product.text">
+                        <span class="uppercase text-white px-3">{{product.text}}</span>
+                    </a>
+                    
+                </li>
+            </ul>
         </div>
     </div>
     
@@ -13,6 +18,9 @@
 <script>
 export default {
     name: 'MyFooterTop',
+    methods: {
+
+    },
     data() {
         return {
             products: [
@@ -57,7 +65,21 @@ export default {
     @import '../styles/vars.scss';
 
     #footer_top {
-        height: 100px;
         background-color: $brand_color;
+    }
+
+    .product-img {
+        height: 60px;
+        max-width: 60px;
+    }
+
+    li {
+        span {
+            font-size: 14px;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
     }
 </style>
