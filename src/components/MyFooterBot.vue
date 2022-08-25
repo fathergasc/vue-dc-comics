@@ -239,6 +239,12 @@ export default {
         }
     }
 
+    li:hover {
+        a {
+            color: white;
+        }
+    }
+
     .footer_top {
         height: 400px;
         width: 100%;
