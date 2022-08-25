@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <MyHeader/> 
+    <MyHeader/>
+    <MyJumbo/>
     <MyMain/>
     <MyFooterTop/>
     <MyFooterBot/>
@@ -12,12 +13,14 @@ import MyHeader from './components/MyHeader.vue'
 import MyMain from './components/MyMain.vue'
 import MyFooterTop from './components/MyFooterTop.vue'
 import MyFooterBot from './components/MyFooterBot.vue'
+import MyJumbo from './components/MyJumbo.vue'
 
 
 export default {
   name: 'App',
   components: {
     MyHeader,
+    MyJumbo,
     MyMain,
     MyFooterTop,
     MyFooterBot,
