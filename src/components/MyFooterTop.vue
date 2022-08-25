@@ -5,6 +5,7 @@
                 <li v-for="(product, index) in products" :key="index" class="my-5 mx-3 d-flex justify-space-around align-items-center">
                     <a href="product.url">
                         <img class="product-img" :src="require(`../assets/images/${product.image}`)" :alt="product.text">
+                        <!-- <img :src="getImage(product.image)"> alternative to print images in a v-for through a method -->
                         <span class="uppercase text-white px-3">{{product.text}}</span>
                     </a>
                     
@@ -19,7 +20,10 @@
 export default {
     name: 'MyFooterTop',
     methods: {
-
+        //alternative to print images in a v-for through a method
+        /*getImage(path) {
+        return require('../assets/images/' + path);
+        },*/
     },
     data() {
         return {
