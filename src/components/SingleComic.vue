@@ -23,6 +23,8 @@ export default {
         margin: 10px;
         display: flex;
         flex-direction: column;
+
+        
         
 
         img {
@@ -30,6 +32,10 @@ export default {
         width: 170px;
         object-fit: cover;
         object-position: 0% 0%;
+        
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         h4 {
